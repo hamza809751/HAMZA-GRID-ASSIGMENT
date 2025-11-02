@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #fff;
+    padding: 20px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    gap: 10px;
+    margin: 8px 0;
+}
+
+.box{
+    background: #9acd32;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+/* Row 1 */
+.big{ width: 100%; }
+
+/* Row 2 */
+.half{ width: 50%; }
+
+/* Row 3 */
+.three{ width: 33.33%; }
+
+/* Row 4 */
+.four{ width: 25%; }
+
+/* Row 5 (6 columns) */
+.five{ width: 16.66%; }
+
+/* Row 6 (12 equal columns) */
+.small-row .box{
+    width: 8.33%;
+    padding: 15px 0;
+    font-size: 16px;
+}
